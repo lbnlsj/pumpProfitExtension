@@ -1,0 +1,6 @@
+.tx-connection-line {
+  position: absolute;
+  pointer-events: none;
+  z-index: 1000;
+  border-left: 2px dashed rgba(95, 203, 136, 0.6);
+}

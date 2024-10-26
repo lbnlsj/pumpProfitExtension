@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "Transaction Linker",
+  "version": "1.0",
+  "description": "Connect transaction records with same account using lines",
+  "permissions": ["tabs"],
+  "host_permissions": [
+    "https://pump.fun/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["https://pump.fun/*"],
+      "js": ["content.js"],
+      "css": ["styles.css"],
+      "run_at": "document_end"
+    }
+  ]
+}
